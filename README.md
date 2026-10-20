@@ -1,1 +1,1 @@
-# Learn C-C++
+# Learn C/C++
