@@ -118,9 +118,29 @@ int main() {
     long long res = max_val(1LL * max1 * max2, 1LL * min1 * min2);
 
     printf("%lld", res);
-
     return 0;
 }
-        
+
+// 1. Dãy con liên tiếp các phần tử kề nhau đều khác nhau.
+// Cho một dãy số nguyên có n phần tử. Tìm dãy con liên tiếp có các phần tử 
+// liền kề, khác nhau có độ dài lớn nhất.
+long long max(long long a, long long b){
+    return a<b? b:a;
+}
+
+int main(){
+    int n; scanf("%d",&n);
+    int a[n];
+    for(int i=0;i<n;i++) scanf("%d",&a[i]);
     
-    
+    int res = 0;
+    int cnt = 1;
+    for(int i =1;i<n;i++){
+        if(a[i]!=a[i-1]) ++cnt;
+        else{
+            cnt = 1;
+        }
+        res = max(res,cnt);
+    }   
+    printf("%d",res);
+}
