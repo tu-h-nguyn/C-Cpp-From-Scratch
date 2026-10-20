@@ -85,7 +85,7 @@ This repository is actively maintained as part of my self-study process. New exe
 
 ## Author
 
-**Tu Nguyen**
+**Nguyễn Hoàng Tú**
 
 - GitHub: [tu-h-nguyn](https://github.com/tu-h-nguyn)
 - LinkedIn: [tu-h-nguyn](https://www.linkedin.com/in/tu-h-nguyn/)
